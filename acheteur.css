@@ -1,0 +1,64 @@
+nav {
+  padding: 30px;
+}
+
+button#regroupe {
+  margin-right: 10px;
+}
+
+/* Conteneur du menu */
+main {
+    display: grid;
+    grid-template-areas: "tomate crème"
+                         "nutella nutella";
+    grid-template-columns: 1fr 1fr;
+  }
+  
+
+div.tomate {
+  grid-area: tomate;
+}
+
+div.crème {
+  grid-area: crème;
+}
+
+div.nutella {
+  grid-area: nutella;
+}
+
+h1.titre {
+    font-family: Pacifico, serif;
+    color: white;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px var(--header);
+    margin-top: 0;
+}
+  
+/* Liste des pizza */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2.pizzaNom {
+  text-transform: uppercase;
+  color: var(--pizzaNom);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+
+span.pizzaPrix {
+  color: white;
+  padding: 0 4px;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: var(--pizzaPrix);
+  border-radius: 6px;
+  text-shadow: none;
+}
+  
+p.pizzaIngs {
+  margin-top: 3px;
+  color: white;
+}

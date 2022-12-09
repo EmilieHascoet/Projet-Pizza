@@ -1,0 +1,47 @@
+/* couleur global */
+:root {
+  --header: rgb(98, 66, 216);
+  --pizzaNom:  rgb(151, 231, 211);
+  --pizzaPrix : rgba(42,130,159, 1)
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Titre */
+header {
+  background-color: var(--header);
+  padding: 25px;
+  text-align: center;
+}
+
+header > h1 {
+  margin: 0;
+  font-family: Pacifico, serif;
+  font-size: 50px;
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  height: 120px;
+}
+
+#switchAccount {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
